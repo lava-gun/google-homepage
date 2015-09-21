@@ -1,34 +1,134 @@
+/*general*/
 ul li{
 	display:inline-block;
 	padding-right:15px;
 	list-style:none;
 	color:#000;
 }
+body{
+	font-size:13px;
+	font-family:Arial, sans-serif;
+}
+
+/*navigation*/
 .header {
 	float:right;
 	position:absolute;
-	right:40px;
-	top:0px;
+	right:30px;
+	top:10px;
+}
+.header a:link{
+	color:#000;
+	text-decoration:none; 
+	line-height: 24px;
+
+}
+.header a:hover{
+	text-decoration:underline;
+}
+/*#signIn {
+	color:white;
+	border:transparent;
+	border-radius:2px;
+	/*background-color:#4387fd;*/
+}*/
+/*center*/
+.center{
+	display:block;
+	text-align:center;
+	width:100%;
+}
+.center img{
+	height:92px;
+	width:272px;
+	padding-top:200px;
+	padding-bottom:25px;
+	text-align:center;
+}
+.search_butt{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #F3F3F3;
+	font-weight: bold;
+	margin-right: 15px;
+	color: #666;
+	border:transparent;
+	font-size:14;
+	
+}
+.search_butt:hover{
+	font-weight: bold;
+	color:#666;
+}
+
+.lucky_butt{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #F3F3F3;
+	font-weight: bold;
+	margin: 0px;
+	border:transparent;
+	color:#666;
+}
+.searchbox{
+	width:437px;
+	height:40px;
+	margin-bottom:10px;
+}
+.searchbox:hover{
+	border-color:#666;
+}
+.searchbox:active{
+	border-color:blue;
+}
+.voiceSearch{
+	height:42px;
+	margin-bottom:-18px;
+	border:transparent;
+	margin-left:-40px;
+}
+.voiceSearch img{
+	height:300px;
+}
+form{
+	text-align:center;
+}
+input{
+	border:1px solid #cecece;
+}
+input:hover{
+	border:1px solid #9a9a9a;
+	text-decoration: bold;
+}
+
+/*footer*/
+footer{
+	position: absolute;
+	width:100%;
+	height:40px;
+	bottom:0px;
+	border-top:1px solid #E4E4E4;
+	background-color:#F3F3F3;
 }
 
 .left_align {
 	float:left;
 	position:absolute;
-	left:10px;
+	left:1px;
 	bottom:0px;
 }
 
 .right_align{
 	float:right;
 	position:absolute;
-	right:10px;
+	right:1px;
 	bottom:0px;
 }
-.center{
-	text-align:center;
+footer a{
+	color:#666;
+	text-decoration:none;
 }
-.center img{
-	height:92px;
-	width:272px;
-	padding-top:200px;
+footer a:hover{
+	text-decoration:underline;
 }
+
